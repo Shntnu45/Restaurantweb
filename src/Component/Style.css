@@ -1,0 +1,158 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+      }
+      
+      
+.btn{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+background-color: green;
+    font-weight: bold;
+
+
+}
+
+.butter{
+    color: red;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+      }
+      
+.navbar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    left: 0;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.text{
+    margin-top: 200px;
+}
+.img1{
+  width: 80%;
+  padding-top: 100px;
+   filter: drop-shadow(5px 10px 10px #000);
+   transition: all .6s ease-in-out;
+
+}
+.img1:hover{
+    width: 90%;
+}
+.taste{
+    padding-left: 60px;
+    font-family: 'Cookie', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 245, 10);
+}
+
+/* ---------------- Section 1 ------------ */
+/* .plateimg{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    width: 40%;
+    padding-top: 60px;
+} */
+.plateimg{
+    margin-top: 40px;
+    width: 40%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.plateimg{
+    width: 40%;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.plateimg:hover{
+    width: 50%;
+}
+
+
+hr{
+    color: black;
+}
+.bg{
+    padding: 50px;
+    background-image: url(./Imgs/img/bg.png);
+    background-size: cover;
+}
+/* ----------------About Section------------ */
+.allabout{
+    padding: 30px;
+}
+.aboutimg{
+    width: 80%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.aboutimg:hover{
+    width: 85%;
+    border-radius: 20px;
+}
+.about{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.order{
+   
+}
+/* -------------------------Menu---------------------------- */
+.men{
+    margin: 60px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cookie', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 245, 10);}
+.menulist{
+    background-color:black;
+    padding: 60px;
+    cursor: pointer;
+
+}
+.card{
+    width: 80%;
+    cursor: pointer;
+}
+.card:hover{
+    width: 90%;
+
+}
+.gn{
+    color: green;
+}
+
+/*-------------------- footer =--------------------------*/
+.taste1{
+    font-family: 'Cookie', cursive;
+    font-size: 1 em;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 245, 10);
+}
+footer{
+    margin-top: 50px;
+    padding: 40px;
+    color: white;
+    background-color: black
+
+}
